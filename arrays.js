@@ -30,5 +30,9 @@ function addFirst(element,array){
     extended=[element,array]
     return extended;
 }
-let extended=addFirst(5,multiDimensionArray);
+let extended=addFirst(5,multiDimensionArray);//this problem here that creates 
 console.log(extended);
+
+var testArray=["Mohamd","samir"];
+testArray.unshift("amin");
+console.log(testArray)
